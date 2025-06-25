@@ -28,9 +28,10 @@ Designed for Minecraft `1.21.4`, this datapack blends arcane aesthetics with sur
 ## 📥 Installation
 
 1. Download the latest version from the [Releases](https://github.com/ItzsFox/Arcane-Core/releases) tab.  
-2. Place the `.zip` in your world’s `datapacks/` folder.  
-3. Run `/reload` once in-game.  
-4. You're ready to begin your arcane journey.
+2. Place the `.zip` in your world’s `datapacks/` folder.
+3. Place the `Arcane Core Pack` in your texture packs folder (for now). 
+4. Run `/reload` once in-game.  
+5. You're ready to begin your arcane journey.
 
 ---
 

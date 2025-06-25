@@ -1,0 +1,125 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "arcore:item/frozen_hat",
+		"particle": "arcore:item/frozen_hat"
+	},
+	"elements": [
+		{
+			"name": "HatBottom",
+			"from": [3.75, 0.10431, 2.77975],
+			"to": [14.25, 1.10431, 13.27975],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [7.5, 2.5, 10.125, 2.75], "texture": "#0"},
+				"east": {"uv": [7.5, 2.75, 10.125, 3], "texture": "#0"},
+				"south": {"uv": [7.5, 3, 10.125, 3.25], "texture": "#0"},
+				"west": {"uv": [7.5, 3.25, 10.125, 3.5], "texture": "#0"},
+				"up": {"uv": [5.875, 2.625, 3.25, 0], "texture": "#0"},
+				"down": {"uv": [5.875, 2.75, 3.25, 5.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "HatBottomTiny",
+			"from": [2.75, 0.02189, 1.7315],
+			"to": [15.25, 0.12189, 14.2315],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [7.5, 3.5, 10.625, 3.625], "texture": "#0"},
+				"east": {"uv": [7.5, 3.75, 10.625, 3.875], "texture": "#0"},
+				"south": {"uv": [4, 7.5, 7.125, 7.625], "texture": "#0"},
+				"west": {"uv": [7.5, 4, 10.625, 4.125], "texture": "#0"},
+				"up": {"uv": [3.125, 3.125, 0, 0], "texture": "#0"},
+				"down": {"uv": [3.125, 3.25, 0, 6.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "HatLayer2",
+			"from": [5.25, 0.85431, 4.27975],
+			"to": [12.75, 2.85431, 11.77975],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [7.5, 1, 9.375, 1.5], "texture": "#0"},
+				"east": {"uv": [7.5, 1.5, 9.375, 2], "texture": "#0"},
+				"south": {"uv": [2, 7.5, 3.875, 8], "texture": "#0"},
+				"west": {"uv": [7.5, 2, 9.375, 2.5], "texture": "#0"},
+				"up": {"uv": [5.125, 7.375, 3.25, 5.5], "texture": "#0"},
+				"down": {"uv": [7.125, 5.5, 5.25, 7.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "HatLayer3",
+			"from": [6.25, 0.91499, 6.99251],
+			"to": [11.75, 4.41499, 12.49251],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [6, 3, 7.375, 3.875], "texture": "#0"},
+				"east": {"uv": [6, 4, 7.375, 4.875], "texture": "#0"},
+				"south": {"uv": [0, 6.5, 1.375, 7.375], "texture": "#0"},
+				"west": {"uv": [1.5, 6.5, 2.875, 7.375], "texture": "#0"},
+				"up": {"uv": [7.375, 1.375, 6, 0], "texture": "#0"},
+				"down": {"uv": [7.375, 1.5, 6, 2.875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "HatLayer4",
+			"from": [7, 5.03446, 6.65037],
+			"to": [11, 9.03446, 10.65037],
+			"rotation": {"angle": -45, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [7.25, 5, 8.25, 6], "texture": "#0"},
+				"east": {"uv": [7.25, 6, 8.25, 7], "texture": "#0"},
+				"south": {"uv": [7.25, 7, 8.25, 8], "texture": "#0"},
+				"west": {"uv": [0, 7.5, 1, 8.5], "texture": "#0"},
+				"up": {"uv": [8.5, 1, 7.5, 0], "texture": "#0"},
+				"down": {"uv": [2, 7.5, 1, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "HatTop",
+			"from": [8, 5.99246, 10.08548],
+			"to": [10, 7.99246, 13.08548],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9, 7.0417, 10.76155]},
+			"faces": {
+				"north": {"uv": [6.75, 5, 7.25, 5.5], "texture": "#0"},
+				"east": {"uv": [6, 5, 6.75, 5.5], "texture": "#0"},
+				"south": {"uv": [5, 7.75, 5.5, 8.25], "texture": "#0"},
+				"west": {"uv": [7.5, 4.25, 8.25, 4.75], "texture": "#0"},
+				"up": {"uv": [4.5, 8.5, 4, 7.75], "texture": "#0"},
+				"down": {"uv": [5, 7.75, 4.5, 8.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [-0.75, 3.75, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 137, 0],
+			"translation": [0.75, 3.25, 0]
+		},
+		"head": {
+			"rotation": [21, 0, 0],
+			"translation": [-1.75, 18.25, 6],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, -46, 0],
+			"translation": [-0.75, 5, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "hat",
+			"origin": [0, 13.37658, 2.08033],
+			"rotation": [0, 0, -5],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

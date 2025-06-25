@@ -1,0 +1,83 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/glacial_wraith/glacial_wraith",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.64305, -0.35239, 2.6355],
+			"to": [8.64305, 1.64761, 5.6355],
+			"rotation": {
+				"angle": 22.5,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [11.25, 1.5, 12, 2],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [11.25, 7.75, 12, 8.25],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [9.75, 11.25, 10.5, 11.75],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 11.5, 0.75, 12],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [11.75, 10, 11, 9.25],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [11.75, 10.75, 11, 11.5],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [1.03204, 1.43145, 1.60433],
+			"to": [3.03204, 4.43145, 3.60433],
+			"rotation": {
+				"angle": 22.5,
+				"axis": "z",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [2.75, 6.5, 3.25, 7.25],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [8.25, 8.75, 8.75, 9.5],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [6.5, 11, 7, 11.75],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [1.75, 11.25, 2.25, 12],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [1.5, 11.25, 1, 10.75],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [8, 12, 7.5, 12.5],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"1": "animated_java:blueprint/glacial_wraith/glacial_wraith",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, -0.35239, 5.60433],
+			"to": [11, 1.64761, 10.60433],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [10.5, 5.5, 12, 6],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [9.75, 10.75, 11, 11.25],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [10.5, 6, 12, 6.5],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [3, 11, 4.25, 11.5],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [9, 2.75, 7.5, 1.5],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [4.25, 7.5, 2.75, 8.75],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

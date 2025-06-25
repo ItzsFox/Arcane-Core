@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/barrier",
+  "textures": {
+    "layer0": "arcore:item/soul_crystal"
+  }
+}

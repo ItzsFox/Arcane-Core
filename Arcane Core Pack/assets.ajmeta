@@ -1,0 +1,44 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"glacial_wraith": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/glacial_wraith/bottom.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/cape.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/hat.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/head_hat.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/jacket.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/leftarm.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/leftleg.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/rightarm.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/rightleg.json",
+				"assets/animated_java/items/blueprint/glacial_wraith/staff.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/bottom.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/cape.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/head_hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/jacket.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/leftarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/leftleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/bottom.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/cape.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/head_hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/jacket.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/leftarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/leftleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/rightarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/rightleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rage_mode/staff.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rightarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/rightleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/staff.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/glacial_wraith/glacial_wraith.png",
+				"assets/animated_java/textures/blueprint/glacial_wraith/glacial_wraith_rage.png"
+			]
+		}
+	}
+}

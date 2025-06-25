@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "arcore:reconstructed_soul_shard"
+      }
+    }
+  },
+  "rewards": {
+    "function": "arcore:soulshards/reconstructed_soulshard"
+  }
+}

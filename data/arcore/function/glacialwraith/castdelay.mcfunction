@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=GlacialWraithStand] at @e[type=armor_stand,tag=GlacialWraithStand] run function arcore:glacialstaff/glacial_staff_cast

@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "flags": {
+      "is_sneaking": true
+    },
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:compass",
+        "count": 1,
+        "components": {
+          "minecraft:unbreakable": {
+            "show_in_tooltip": false
+          }
+        }
+      }
+    }
+  }
+}

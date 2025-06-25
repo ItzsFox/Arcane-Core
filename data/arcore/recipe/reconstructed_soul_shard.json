@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "reconstructed_soul_shard",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+"a": "minecraft:command_block",
+"b": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:compass",
+    "count": 1,
+    "components": {
+      "max_stack_size":1, "item_model":"arcore:reconstructed_soul_crystal",
+      "minecraft:item_name": "[{\"text\":\"a\",\"obfuscated\":true,\"color\":\"light_purple\"},{\"text\":\" Reconstructed Soul Crystal \",\"color\":\"light_purple\",\"bold\":true,\"obfuscated\":false},{\"text\":\"a\",\"obfuscated\":true,\"color\":\"light_purple\"}]",
+      "minecraft:lore": [
+        "{\"text\":\"An imperfect arcane relic assembled from Soul Shards.\",\"italic\":false, \"color\":\"yellow\"}",
+        "{\"text\":\"While it can fully revive a soul, it demands a greater\",\"italic\":true, \"color\":\"light_purple\"}",
+        "{\"text\":\"offering of XP compared to the original.\",\"italic\":true, \"color\":\"light_purple\"}",
+        "{\"text\":\"\", \"italic\":false}",
+        "{\"text\":\"Hold crouch to revive.\",\"italic\":false, \"color\":\"gray\"}"
+      ],
+      "minecraft:rarity": "epic"
+    }
+  }
+}

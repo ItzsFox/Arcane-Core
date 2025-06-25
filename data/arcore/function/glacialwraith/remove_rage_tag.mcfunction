@@ -1,0 +1,1 @@
+execute as @e[tag=root] run tag @s remove enter_rage_mode

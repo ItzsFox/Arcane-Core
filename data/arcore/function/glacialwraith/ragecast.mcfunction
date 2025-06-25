@@ -1,0 +1,1 @@
+execute as @e[tag=root] run function animated_java:glacial_wraith/animations/wand_attack/play

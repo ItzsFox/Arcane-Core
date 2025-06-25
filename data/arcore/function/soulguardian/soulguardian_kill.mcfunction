@@ -1,0 +1,1 @@
+execute as @e[type=allay,tag=soul] unless items entity @s weapon.* * run execute at @s run kill @s

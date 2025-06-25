@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=CoreSpawned] run place template arcore:arcane_well_lowering_8 ~-3 ~ ~-5

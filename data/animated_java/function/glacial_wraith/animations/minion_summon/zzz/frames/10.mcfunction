@@ -6,3 +6,4 @@ $data merge entity $(bone_rightarm) {transformation: [-0.2044f,0.9212f,-0.331f,-
 $data merge entity $(bone_leftarm) {transformation: [-0.9952f,-0.0927f,0.032f,0.2024f,-0.0889f,0.7154f,-0.693f,0.4848f,0.0413f,-0.6925f,-0.7202f,-0.0825f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_staff) {transformation: [0.6898f,-0.0924f,-1.0346f,0.4735f,-0.2395f,1.1944f,-0.2663f,0.4767f,1.0107f,0.346f,0.643f,0.0432f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_jacket) {transformation: [-0.9861f,-0.0645f,0.1528f,0f,-0.0654f,0.9979f,-0.001f,0.522f,-0.1524f,-0.011f,-0.9883f,-0.0247f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute at @e[tag=root,limit=1] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 1 1.5

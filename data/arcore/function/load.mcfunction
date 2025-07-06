@@ -22,11 +22,11 @@ scoreboard objectives add tempCount dummy
 scoreboard objectives add correctItems dummy
 scoreboard objectives add coreLevel dummy
 schedule function arcore:shootingsoul/shootingsoul 24000
-function arcore:core/core_start
+
 
 #loaded
 tellraw @a ["",{"text":"I ","bold":true,"obfuscated":true,"color":"light_purple"},{"text":"Arcane Core v1.0.1 Loaded!","bold":true,"color":"dark_purple"}]
-playsound block.enchantment_table.use master @a ~ ~ ~ 10 1
+execute at @a run playsound block.enchantment_table.use master @a ~ ~ ~ 10 1
 #announcement
 tellraw @a [""]
 tellraw @a ["",{"text":" Brace yourself for the ultimate challenge with ","color":"white"},{"text":"Arcane Core","bold":true,"color":"dark_purple"},{"text":". You start at your weakest\u2014just half a heart, and ","color":"white"},{"text":"no natural regeneration","color":"aqua"},{"text":". Your survival depends on your ","color":"white"},{"text":"XP","color":"yellow"},{"text":". As you gain levels, your ","color":"white"},{"text":"health will grow","color":"#F8ADAE"},{"text":", and with each milestone, you'll unlock powerful ","color":"white"},{"text":"buffs","color":"green"},{"text":" and ","color":"white"},{"text":"rewards","color":"green"},{"text":". In this world, ","color":"white"},{"text":"death isn't final","color":"#CA5000"},{"text":". Sacrifice your hard-earned ","color":"white"},{"text":"XP ","color":"yellow"},{"text":"to bring fallen teammates ","color":"white"},{"text":"back to life","color":"green"},{"text":" and keep the fight going.","color":"white"}]

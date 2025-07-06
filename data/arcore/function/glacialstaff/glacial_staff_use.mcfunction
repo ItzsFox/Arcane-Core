@@ -11,16 +11,19 @@ execute as @a unless predicate arcore:glacial_staff unless entity @s[tag=casting
 # Casting process
 execute as @a[scores={glacialtimer=0..9},tag=casting] run title @s actionbar [{"text":"⚠ ","color":"yellow","bold":true},{"text":"Hold to charge — release on ","color":"white"},{"text":"GREEN","color":"green","bold":true},{"text":" to fire!","color":"white"}]
 execute as @a[scores={glacialtimer=10..29},tag=casting] run title @s actionbar [{"text":"█","color":"red"}]
-execute as @a[scores={glacialtimer=10},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1
+execute at @a[scores={glacialtimer=10},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1
 execute as @a[scores={glacialtimer=30..49},tag=casting] run title @s actionbar [{"text":"██","color":"gold"}]
-execute as @a[scores={glacialtimer=30},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1.4
+execute at @a[scores={glacialtimer=30},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1.4
 execute as @a[scores={glacialtimer=50..69},tag=casting] run title @s actionbar [{"text":"███","color":"yellow"}]
-execute as @a[scores={glacialtimer=50},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1.8
+execute at @a[scores={glacialtimer=50},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 1.8
 execute as @a[scores={glacialtimer=70..109},tag=casting] run title @s actionbar [{"text":"████","color":"green"}]
-execute as @a[scores={glacialtimer=70..109},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 2
+execute as @a[scores={glacialtimer=70},tag=casting] run item modify entity @s weapon.mainhand [{function:"minecraft:set_damage",damage:-0.1,add:true}]
+execute at @a[scores={glacialtimer=70},tag=casting] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 1 2
+execute at @a[scores={glacialtimer=70..109},tag=casting] run playsound block.note_block.harp master @a ~ ~ ~ 10 2
 execute as @a[scores={glacialtimer=110..},tag=casting] run title @s actionbar [{"text":"!!! OVERCHARGED !!!","color":"dark_red","bold":true}]
-execute as @a[scores={glacialtimer=110},tag=casting] run playsound block.redstone_torch.burnout master @a ~ ~ ~ 10 1.5
-execute as @a[scores={glacialtimer=110},tag=casting] run playsound block.note_block.didgeridoo master @a ~ ~ ~ 10 0
+execute at @a[scores={glacialtimer=110},tag=casting] run playsound block.redstone_torch.burnout master @a ~ ~ ~ 10 1.5
+execute at @a[scores={glacialtimer=110},tag=casting] run playsound block.note_block.didgeridoo master @a ~ ~ ~ 10 0
+execute at @a[scores={glacialtimer=110},tag=casting] run playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 1 2
 
 # Projectile flying
 execute at @e[tag=GlacialProjectile,limit=1,sort=nearest] run particle snowflake ~ ~2 ~ 0.1 0.1 0.1 0.01 5 force

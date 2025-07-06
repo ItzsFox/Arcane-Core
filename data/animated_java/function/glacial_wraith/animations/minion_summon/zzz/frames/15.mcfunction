@@ -6,3 +6,4 @@ $data merge entity $(bone_rightarm) {transformation: [-0.2927f,0.8879f,0.355f,-0
 $data merge entity $(bone_leftarm) {transformation: [-0.9886f,-0.1348f,0.0677f,0.2175f,-0.1367f,0.6113f,-0.7795f,0.4616f,0.0637f,-0.7798f,-0.6228f,-0.0891f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_staff) {transformation: [0.7058f,-0.1571f,-1.0159f,0.4891f,-0.0656f,1.2229f,-0.2347f,0.485f,1.0259f,0.1863f,0.6839f,0.0336f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_jacket) {transformation: [-0.9726f,-0.0851f,0.2164f,0f,-0.0872f,0.9962f,0f,0.522f,-0.2156f,-0.0189f,-0.9763f,-0.0247f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute at @e[tag=root,limit=1] run particle minecraft:enchant ^-.5 ^.7 ^ 0.15 0.15 0.15 0.1 100 force

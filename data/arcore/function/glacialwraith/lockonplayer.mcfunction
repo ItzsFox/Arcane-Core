@@ -1,2 +1,2 @@
-execute as @e[tag=GlacialWraithStand] unless entity @s[tag=enter_rage_mode] at @s run tp @s ~ ~ ~ facing entity @e[limit=1,tag=!root,type=!marker,tag=!GlacialWraithStand,type=!item_display,type=!text_display,type=!item,type=!armor_stand,sort=nearest,distance=..20,type=!bat,type=!arrow,tag=!minion] feet
+execute as @e[tag=GlacialWraithStand] unless entity @s[tag=enter_rage_mode] at @s run tp @s ~ ~ ~ facing entity @e[limit=1,type=!potion,tag=!root,type=!marker,tag=!GlacialWraithStand,type=!item_display,type=!text_display,type=!item,type=!armor_stand,sort=nearest,distance=..20,type=!bat,type=!arrow,tag=!minion] feet
 execute as @e[tag=root] unless entity @s[tag=enter_rage_mode] run tp @s @e[tag=GlacialWraithStand,limit=1]

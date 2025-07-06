@@ -1,1 +1,2 @@
 execute as @e[type=armor_stand,tag=GlacialWraithStand] at @e[type=armor_stand,tag=GlacialWraithStand] run function arcore:glacialstaff/glacial_staff_cast
+execute at @e[type=armor_stand,tag=GlacialWraithStand] run playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 2 .5

@@ -1,0 +1,12 @@
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.00 ^1.90 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.45 ^1.78 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.78 ^1.45 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.90 ^1.00 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.78 ^0.55 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.45 ^0.22 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^0.00 ^0.10 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^-0.45 ^0.22 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^-0.78 ^0.55 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^-0.90 ^1.00 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^-0.78 ^1.45 ^0.00 0.1 0.1 0.1 0.1 10 force
+execute at @e[tag=inAnimation] run particle minecraft:enchant ^-0.45 ^1.78 ^0.00 0.1 0.1 0.1 0.1 10 force

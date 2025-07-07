@@ -1,0 +1,22 @@
+{
+  "glacialwraith.default": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "arcore:glacialwraith/default",
+        "stream": true,
+        "preload": true
+      }
+    ]
+  },
+  "glacialwraith.rage_mode": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "arcore:glacialwraith/rage_mode",
+        "stream": true,
+        "preload": true
+      }
+    ]
+  }
+}

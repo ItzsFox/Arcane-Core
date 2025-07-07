@@ -3,3 +3,4 @@ scoreboard objectives add aj.wand_attack.frame dummy
 scoreboard objectives add aj.minion_summon.frame dummy
 scoreboard objectives add aj.rage_mode_enter.frame dummy
 scoreboard objectives add aj.rage_mode_exit.frame dummy
+scoreboard objectives add aj.death.frame dummy

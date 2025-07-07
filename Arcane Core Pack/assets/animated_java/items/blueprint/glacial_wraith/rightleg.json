@@ -19,6 +19,16 @@
 						{"type": "minecraft:dye", "default": [1, 1, 1]}
 					]
 				}
+			},
+			{
+				"when": "death",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animated_java:blueprint/glacial_wraith/death/rightleg",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
 			}
 		],
 		"fallback": {

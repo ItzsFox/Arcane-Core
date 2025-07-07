@@ -4,4 +4,5 @@ execute if entity @s[tag=aj.glacial_wraith.animation.wand_attack.playing] run fu
 execute if entity @s[tag=aj.glacial_wraith.animation.minion_summon.playing] run function animated_java:glacial_wraith/animations/minion_summon/zzz/on_tick
 execute if entity @s[tag=aj.glacial_wraith.animation.rage_mode_enter.playing] run function animated_java:glacial_wraith/animations/rage_mode_enter/zzz/on_tick
 execute if entity @s[tag=aj.glacial_wraith.animation.rage_mode_exit.playing] run function animated_java:glacial_wraith/animations/rage_mode_exit/zzz/on_tick
+execute if entity @s[tag=aj.glacial_wraith.animation.death.playing] run function animated_java:glacial_wraith/animations/death/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~

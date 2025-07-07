@@ -3,3 +3,4 @@ tag @s remove aj.glacial_wraith.animation.wand_attack.playing
 tag @s remove aj.glacial_wraith.animation.minion_summon.playing
 tag @s remove aj.glacial_wraith.animation.rage_mode_enter.playing
 tag @s remove aj.glacial_wraith.animation.rage_mode_exit.playing
+tag @s remove aj.glacial_wraith.animation.death.playing

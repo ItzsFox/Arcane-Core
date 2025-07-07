@@ -3,4 +3,5 @@ scoreboard objectives remove aj.wand_attack.frame
 scoreboard objectives remove aj.minion_summon.frame
 scoreboard objectives remove aj.rage_mode_enter.frame
 scoreboard objectives remove aj.rage_mode_exit.frame
+scoreboard objectives remove aj.death.frame
 tellraw @a [[{"text":"\n[","color":"gray"},{"text":"AJ","color":"aqua"},"] ",[{"text":"(from ","color":"gray","italic":true},"glacial_wraith",")"]," -> "],{"text":"Successfully removed known animation scoreboard objectives.","color":"red"},{"text":"\nIf you have exported multiple times you may have to manually remove some objectives from previous exports manually, as Animated Java can only remove the latest export's objectives.","color":"gray","italic":true},["\n"]]

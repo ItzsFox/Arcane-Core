@@ -17,6 +17,16 @@
 				"assets/animated_java/items/empty.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/bottom.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/cape.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/bottom.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/cape.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/head_hat.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/jacket.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/leftarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/leftleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/rightarm.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/rightleg.json",
+				"assets/animated_java/models/blueprint/glacial_wraith/death/staff.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/hat.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/head_hat.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/jacket.json",
@@ -36,8 +46,7 @@
 				"assets/animated_java/models/blueprint/glacial_wraith/rightleg.json",
 				"assets/animated_java/models/blueprint/glacial_wraith/staff.json",
 				"assets/animated_java/models/empty.json",
-				"assets/animated_java/textures/blueprint/glacial_wraith/glacial_wraith.png",
-				"assets/animated_java/textures/blueprint/glacial_wraith/glacial_wraith_rage.png"
+				"assets/animated_java/textures/blueprint/glacial_wraith/glacial_wraith.png"
 			]
 		}
 	}

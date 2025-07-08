@@ -35,7 +35,7 @@ execute as @e[tag=GlacialProjectile,limit=1,sort=nearest] at @p if entity @s[nbt
 # Freezing 
 execute at @e[tag=frozen] run particle snowflake ~ ~2 ~ 0.1 0.1 0.1 0.01 1 force
 execute as @e[tag=frozen] run effect give @s minecraft:slowness 1 255 true
-execute as @e[tag=frozen] run effect give @s minecraft:mining_fatigue 1 255 true
+execute as @e[tag=frozen] run effect give @s minecraft:mining_fatigue 1 1 true
 
 
 

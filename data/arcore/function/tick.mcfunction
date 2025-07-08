@@ -17,3 +17,4 @@ function arcore:soulguardian/soulguardian_takeitem
 function arcore:core/core_task
 function arcore:core/core_start
 function arcore:glacialwraith/passive
+function arcore:glacialwraith/checkminions
